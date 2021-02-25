@@ -9,6 +9,8 @@ const COLORS = ['#EDC240', '#AFD8F8', '#CB4B4B', '#4DA74D', '#9440ED',
 	'#FF158A', '#0244FE', '#804040', '#FF8000'];
 
 const SCALES = [
+	{scale: '22.5"',   inches: [22.5,   22.5]},
+	{scale: '24"',     inches: [24,     24]},
 	{scale: '24.625"', inches: [24.625, 24.625]},
 	{scale: '25"',     inches: [25,     25]},
 	{scale: '25.4"',   inches: [25.4,   25.4]},
@@ -45,7 +47,8 @@ const TUNINGS = [
 	{tuning: 'Eb standard', notes: ['D#4','A#3','F#3','C#3','G#2','D#2','A#1','F1' ]},
 	{tuning: 'D standard',  notes: ['D4', 'A3', 'F3', 'C3', 'G2', 'D2', 'A1', 'E1' ]},
 	{tuning: 'C# standard', notes: ['C#4','G#3','E3', 'B2', 'F#2','C#2','G#1','D#1']},
-	{tuning: 'C standard',  notes: ['C4', 'G3', 'D#3','A#2','F2', 'C2', 'G1', 'D1' ]}
+	{tuning: 'C standard',  notes: ['C4', 'G3', 'D#3','A#2','F2', 'C2', 'G1', 'D1' ]},
+	{tuning: 'B standard',  notes: ['B3', 'F#3','D3', 'A2', 'E2', 'B1', 'F#3', 'C#1' ]}
 ];
 
 const NOTES = [
@@ -88,7 +91,8 @@ const NOTES = [
 	{note: 'F1',  freq:  43.6535},
 	{note: 'E1',  freq:  41.2034},
 	{note: 'D#1', freq:  38.8909},
-	{note: 'D1',  freq:  36.7081}
+	{note: 'D1',  freq:  36.7081},
+	{note: 'C#1', freq:  34.6479},
 ];
 
 const GAUGES = [
